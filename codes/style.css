@@ -1,0 +1,51 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+}
+/* Container for the board */
+.container{
+  background-color: brown;
+  width: 100%;
+  height:100%;
+  margin: 0;
+}
+
+.top{
+  background-color: palevioletred;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top ul{
+  background-color: aquamarine;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+
+.top li{
+  background-color: blueviolet;
+  padding-left: 10px;
+
+}
+
+.books{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.book{
+  padding: 20px;
+  display: flex;
+  padding: 50px;
+}
+
+.book img{
+  height: 300px;
+  width: 150px;
+}
+.book .info{
+  padding-left: 70px;
+}
+
